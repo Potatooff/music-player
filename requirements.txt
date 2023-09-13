@@ -1,6 +1,7 @@
-pydub==0.25.1
 customtkinter==5.2.0
 darkdetect==0.8.0
 pillow==10.0.0
 transformers==4.33.1
 torch==2.0.1
+ffmpeg
+moviepy
