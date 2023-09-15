@@ -10,7 +10,11 @@ assets_directory = path.join(path.join(src_directory), "assets")    # Assets fol
 
 app_directory = path.join(path.join(src_directory), "app")    # app folder
 
-music_directory = path.join(path.join(project_directory), "music")    # music folder
+temps_directory = path.join(path.join(project_directory), "temps")    # temps folder
+
+gen_lyrics_directory = path.join(path.join(temps_directory), "generated_lyrics") # Generated lyrics by whisper 
+
+sliced_audio_directory = path.join(path.join(temps_directory), "sliced_audio") # Slicer audio by utils.slicer 
 
 parameters_directory = path.join(path.join(project_directory), "parameters")  # data folder
 

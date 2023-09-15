@@ -5,3 +5,4 @@ transformers==4.33.1
 torch==2.0.1
 ffmpeg
 moviepy
+openai-whisper
