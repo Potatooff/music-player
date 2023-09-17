@@ -3,11 +3,8 @@ from random import choice; from os import path as pa
 from src.utils.paths import temps_lyrics_directory
 from src.ui.error.error_page import error_window
 from src.engines.Lyrics_Generator.audio_slicer import Slice_Slay_whisper as slice_audio
-import threading
 
-threads = []
 
-num_runs = 2
 
 # TODO ADD GPU USAGE INSTEAD OF CPU FOR WHISPER MODEL BECUZ YES IT IS USING ONLY CPU I THINK
 
