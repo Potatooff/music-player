@@ -1,7 +1,8 @@
 # music-player
 A free music player powered by ai with no ads
 
-s.txt files are useless! 
+```pip install -r requirements.txt```
+
 ![Music Player Quote](https://github.com/Potatooff/music-player/assets/52106425/0adfa827-1bc2-494d-9c93-07066c3379f9)
 
 Install and Run SurrealDB: https://surrealdb.com/docs/introduction/start
